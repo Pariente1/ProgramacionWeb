@@ -41,11 +41,27 @@ header{
 
 #shinji img{
     position: absolute;
-    top: 160px;
-    left: 0;
+    top: 55px;
+    left: 25px;
     width: 250px;
+    height: auto;
 }
 
+/* Aqui modificamos el hero */ 
+
+#hero {
+    position: absolute;
+}
+
+.informacion {
+    position: absolute;
+    top: 220px;
+    left: 25px;
+    color: aliceblue;
+    border: 1px solid #523874;
+    background-color: #dc7d68;
+    opacity: 10%;
+}
 
 
 

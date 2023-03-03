@@ -1,3 +1,5 @@
+/* Contexto General, cualquier modificacion modificará toda la página  */
+
 *{
     margin: 0;
     padding: 0;
@@ -7,3 +9,43 @@
 body{
  font-family: Arial, Helvetica, sans-serif;
 }
+
+.image-containter{
+    display: flex;
+}
+
+.image-containter img{
+    width: 100%;
+}
+
+
+/* Aquí se modifica el encabezado */
+
+header{
+    background: #523874;
+    padding: 55px 50px;
+}
+
+/* Aquí modificamos las imagenes */
+#NervLogo img {
+    width: 160px; 
+    height: 110px;
+    position: absolute;
+    top: 0;
+    left: -35px;
+}
+
+#Eva01Wallpapper img{
+    width: 100%
+}
+
+#shinji img{
+    position: absolute;
+    top: 160px;
+    left: 0;
+    width: 250px;
+}
+
+
+
+

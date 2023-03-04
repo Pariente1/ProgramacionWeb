@@ -43,14 +43,17 @@ header{
     position: absolute;
     top: 55px;
     left: 25px;
-    width: 250px;
     height: auto;
+    width: 35%;
 }
 
 /* Aqui modificamos el hero */ 
 
-#hero {
+.informacion-contenedor{
     position: absolute;
+    width: 100%;
+    top: 85px;
+    left: 0;
 }
 
 .informacion {

@@ -32,18 +32,21 @@ header{
 /*Aqui estan los estilos del Hero*/
 
 #hero #Eva01Wallpapper{
-    display: inline-block;
+    
     width: 100%;
 }
 
 #hero .informacion-contenedor{
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 70%;
+    left: 0px;
+    display: flex;
+    padding: 50px;
+    transform: translateY(-50%);
 }
 
 #hero .informacion-contenedor #foto{
-    width: 100px;
+    width: 200px;
 }
 
 #hero .informacion-contenedor #foto img{
@@ -51,4 +54,22 @@ header{
     
 }
 
+#hero .informacion-contenedor .informacion{
+    font-weight: bold;
+    margin-left: 20px;
+    transform: translateY(80%);
+    color: #f7262b;
+}
+
+#hero .informacion-contenedor .informacion span {
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+#hero .informacion-contenedor .informacion p {
+    margin-bottom: 100px;
+}
+
+
+/*Estilos del Main */
 

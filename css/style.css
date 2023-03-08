@@ -59,6 +59,7 @@ header{
     margin-left: 20px;
     transform: translateY(80%);
     color: #f7262b;
+    width: calc(100% - 200px);
 }
 
 #hero .informacion-contenedor .informacion span {
@@ -73,3 +74,48 @@ header{
 
 /*Estilos del Main */
 
+main {
+    padding: 100px;
+}
+
+main .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    list-style: none;
+}
+
+main .social-icons li {
+    margin-left: 10px;
+}
+
+main .social-icons .social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: red;
+    padding: 15px;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+main .social-icons #Github {
+    background: #23272d;
+}
+
+main .social-icons #Linkedin {
+    background: #0077b0;
+}
+
+main .social-icons #Platzi {
+    background: #121f3d;
+}
+
+main .social-icons #Twitter {
+    background: #1da1f2;
+}
+
+main .social-icons #Youtube {
+    background: #f70000;
+}
